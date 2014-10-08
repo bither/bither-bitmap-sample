@@ -1,4 +1,4 @@
 bither-bitmap-sample
 ====================
 
-Bither team's Bitmap Sample!
+Bither Team's Bitmap Sample!
