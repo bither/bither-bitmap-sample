@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="tab_bg">#ffeeeeee</color>
+    <color name="bg">#ffcccccc</color>
+    <color name="foreground_pressed">#99000000</color>
+    <color name="ui_touch_fixed">#ffdddddd</color>
+    <color name="white">#fff</color>
+    <color name="ui_touch">#44cccccc</color>
+    <color name="transparent">#00000000</color>
+    <color name="image_progress_bar">#ffbfbfbf</color>
+    <color name="darker_transparent">#33000000</color>
+</resources>

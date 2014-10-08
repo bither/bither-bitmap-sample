@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:foreground="@drawable/grid_photo_overlay"
+    android:foregroundGravity="fill" >
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="#ffd7d7d7"
+        android:duplicateParentState="true"
+        android:foreground="@drawable/photo_touchable_foreground"
+        android:foregroundGravity="fill" >
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/iv_animated"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/transparent"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+
+
+</FrameLayout>

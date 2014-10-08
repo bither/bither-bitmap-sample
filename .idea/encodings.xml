@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/net/bither/image/DisplayImagaUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/net/bither/image/adapter/PiTopAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/net/bither/image/cache" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/net/bither/image/exception" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/net/bither/image/http" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/net/bither/image/http/HttpSetting.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/net/bither/image/ui/base/TopAnimHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/net/bither/util/NativeUtil.java" charset="UTF-8" />
+  </component>
+</project>
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg">
+
+    <LinearLayout
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ui_touchable_bg"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibtn_back"
+            android:layout_width="43dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/tab_button_background"
+            android:scaleType="centerInside"
+            android:src="@drawable/title_bar_light_back" />
+
+        <View
+            android:layout_width="3px"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-1px"
+            android:background="@drawable/tab_divider" />
+
+
+    </LinearLayout>
+
+    <net.bither.image.ui.base.ImageProgressView
+        android:id="@+id/ipv_photo_big"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:background="#ffe1e1e1"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:id="@+id/btn_back"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_small_green_bg"
+        android:text="@string/back" />
+
+</LinearLayout>
