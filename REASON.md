@@ -36,9 +36,13 @@ The inPurgeable options is very important, but the Google's advice is "avoid usi
 After the discussion of the memory usage of the Bitmap object, here I want to tell you some principles on resolving the memory issue on Android platform:
 
 1. OOM happens on any place (normally not on the problem line), the only thing we can do is to analyze the memory leak.
+
 2. Android GC is trustable, and we don't need to recycle manually, we don't need to frequently calling the `gc()`. After the lifecycle of an object, just remove the reference is enough, the Android GC will finish its work.
+
 3. Always use `ARGB_8888`.
+
 4. All memory leak problems are related to reference issue, normally DDMS+reviewing code is enough to solve these problems.
+
 5. We may find that OOM in this year are not as severe as before. Thanks for the hardware industry, now we have 3GB memory mobile phones, :)
 
 In conclusion, no matter for `optimize_coding` or `inPurgeable`, Google are confused, but Apple really understand these. The iOS developers are so lucky!
