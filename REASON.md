@@ -1,6 +1,6 @@
 # Android, Bitmap and OOM (Out Of Memory)
 
-A month ago, I wrote an article ["Why the image quality of iPhone is much better than Android?"] (https://github.com/bither/bither-android-lib/blob/master/REASON.md). After reading that article, you may understand the importance of the `optimize_coding` parameter. In fact, there are more confusions made by Goolge, not only in image quality.
+A month ago, I wrote an article ["Why the image quality of iPhone is much better than Android?"] (https://github.com/bither/bither-android-lib/blob/master/REASON.md). After reading that article, you may understand the importance of the `optimize_coding` parameter. In fact, there are more confusions made by Google, not only in image quality.
 
 Today, I want to tell you something about the Bitmap object on Android platform.
 
